@@ -1,0 +1,15 @@
+{
+    "name": "dev",
+    "dockerFile": "../Dockerfile",
+    "extensions": [],
+    "settings": {
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "/bin/bash"
+            }
+        },
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "python.linting.flake8Enabled": true,
+        "python.formatting.provider": "black"
+    }
+}
